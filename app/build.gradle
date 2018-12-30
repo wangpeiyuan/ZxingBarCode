@@ -29,6 +29,7 @@ dependencies {
     implementation deps.constraintLayout
     implementation deps.easypermissions
     implementation project(':core')
+//    implementation 'com.github.wangpeiyuan:ZxingBarCode:v1.0.0'
 
     testImplementation deps.testJunit
     androidTestImplementation deps.testRunner
