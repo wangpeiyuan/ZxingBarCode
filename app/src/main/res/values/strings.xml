@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">ZxingBarCode</string>
+    <string name="app_name">ZxingBarCodeDemo</string>
+    <string name="zbar_scanner">ZBar 扫描二维码</string>
+    <string name="zxing_scanner">ZXing 扫描二维码</string>
+    <string name="scanner">ZBar/ZXing 扫描二维码</string>
+    <string name="generate_qrcode">生成二维码</string>
 </resources>

@@ -27,6 +27,9 @@ dependencies {
     implementation deps.kotlinStdlib
     implementation deps.appcompatv7
     implementation deps.constraintLayout
+    implementation deps.easypermissions
+    implementation project(':core')
+
     testImplementation deps.testJunit
     androidTestImplementation deps.testRunner
     androidTestImplementation deps.testEspresso

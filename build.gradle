@@ -43,6 +43,7 @@ ext.deps = [
         kotlinStdlib          : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version",
         appcompatv7           : "com.android.support:appcompat-v7:${supportLibraryVersion}",
         constraintLayout      : "com.android.support.constraint:constraint-layout:1.1.3",
+        easypermissions      : "pub.devrel:easypermissions:2.0.0",
 
         // testCompile
         testJunit             : "junit:junit:4.12",
