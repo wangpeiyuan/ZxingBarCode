@@ -17,10 +17,20 @@ An Android library to scanner and generate barcode based on ZXing and ZBar.
 
 ## Getting started
 
+在项目的根节点的 `build.gradle` 中添加如下代码
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
 在项目的 `build.gradle` 中添加
 ```
 dependencies {
-    implementation ''//Waiting
+    implementation 'com.github.wangpeiyuan:ZxingBarCode:v1.0.0'
 }
 ```
 
